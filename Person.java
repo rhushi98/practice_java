@@ -4,10 +4,17 @@ public class Person {
        int age;
        String gender;
 
-    public Person(String rhushi, String number, String male) {
+    public Person(String name,int age, String gender) {
         this.name=name;
         this.age=age;
         this.gender=gender;
+    }
+
+
+    public Person(String name,int age) {
+        this.name=name;
+        this.age=age;
+        gender="NA";
     }
 
     public String getname(){
@@ -26,7 +33,7 @@ public class Person {
            this.gender=gender;
         }
         void display(){
-            System.out.println(getage()+","+getname()+","+getgender());
+            System.out.println(getname()+","+getage()+","+getgender());
         }
     }
 
