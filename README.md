@@ -1,12 +1,1 @@
-   String A1 = "Rhushi";
-        System.out.println("Lowercase = "+A1.toLowerCase());
-        System.out.println("Uppercase = "+A1.toUpperCase());
-        System.out.println("length = "+A1.length());
-        System.out.println("concat = "+A1.concat(" Mangasule"));
-        System.out.println("character present in 3rd position = "+A1.charAt(2));
-        System.out.println("equals1 = "+A1.equals("Mangasule"));
-        System.out.println("equals2 = "+A1.equals("Rhushi"));
-        System.out.println("Contains1 = "+A1.contains("us"));
-        System.out.println("Contains2 = "+A1.contains("RH"));
-        System.out.println("trim = "+A1.trim());
-        System.out.println("Replace = "+A1.replace('R','K'));
+
